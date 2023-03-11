@@ -1,0 +1,64 @@
+.container__menu {
+    align-items: center;
+    border-bottom: solid 1px #000000;
+    background: #00000034;
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    
+}
+
+.nome__dev {
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.nome__sandromatias {
+    color: #6eec3c;
+    font-size: 2em;
+}
+
+.nome__codar {
+    color: #7340e9;
+    font-size: 1.3em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+.menu__titulo {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    margin-left: 5rem;
+    user-select: none; 
+}
+
+.menu {
+    display: flex;
+    gap: 1rem;
+}
+
+.menu:last-child {
+    margin-right: 2rem;
+}
+
+.menu__itens a {
+    color: #fff;
+    display: block;
+    font-size: 1.2em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.target {
+    border-bottom: 4px solid transparent;
+    position: absolute;
+    margin-top: 1.2rem;
+    transform: translateX(-60px);
+    z-index: -1; 
+}
+
+.menu__itens a, .target {
+    transition: all 0.4s ease-in-out;
+}
+
