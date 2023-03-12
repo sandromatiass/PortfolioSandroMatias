@@ -1,0 +1,46 @@
+main{
+    margin-top: 8vh;
+}
+
+.container__apresentancao {
+    align-items: center;
+    display: flex;
+}
+
+.container__texto {
+    display: flex;
+    flex-direction: column;  
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(85, 85, 85);
+    border-radius: 9px;
+    margin-top: 8.5rem;
+    margin-left: 8rem;
+    width: 112vh;
+}
+
+.apresentacao {
+    font-size: 3.5em;
+    font-weight: 600;
+    color: white;
+    margin-left: 1rem;
+}
+
+.texto__apresentacao {
+    color: white;
+    font-size: 1.2em;
+    margin-left: 1.4rem;
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+    margin-top: .5rem;
+    text-align: center;
+}
+
+.container__imagem {
+    margin-left: 58rem;
+    position: absolute;
+}
+
+.eu__mesmo {
+    height: 450px;
+}
+

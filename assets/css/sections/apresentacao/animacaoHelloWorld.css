@@ -1,0 +1,42 @@
+.nome__helloworld {
+    box-shadow: .1em 0 0 #6eec3c;
+    color: #7340e9;
+    font-size: 5.5em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    margin-left: 8rem;
+    margin-bottom: 15rem;
+    overflow: hidden;
+    position: absolute;
+    text-shadow: 2px 2.3px 0 #6eec3c;
+    width: 11ch;
+    white-space: nowrap;
+    -webkit-animation: caret .8s step-end infinite alternate,
+        type .8s steps(13, end);
+    animation: caret .8s step-end infinite alternate,
+        type .8s steps(13, end);
+}
+
+@-webkit-keyframes type {
+    0%{
+        width:0;
+    }
+}
+
+@keyframes type {
+    0%{
+        width: 0;
+    }
+}
+
+@-moz-keyframes caret {
+    50% {
+        box-shadow: .6em 0 0 transparent;
+    }
+}
+
+@keyframes caret {
+    50%{
+        box-shadow: .6em 0 0 transparent;
+    }
+}

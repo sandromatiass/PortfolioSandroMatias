@@ -1,0 +1,3 @@
+font-family: 'Ubuntu', sans-serif;
+#7340e9 roxo
+#6eec3c verde
